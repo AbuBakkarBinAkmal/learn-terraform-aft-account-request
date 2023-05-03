@@ -3,8 +3,8 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "awsaudit+copebitmfttest@xgrid.co"
-    AccountName               = "Root"
-    ManagedOrganizationalUnit = "Learn AFT"
+    AccountName               = "TestAccountAWS"
+    ManagedOrganizationalUnit = "Root"
     SSOUserEmail              = "awsaudit+copebitmfttest@xgrid.co"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
