@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "awsaudit+testaccountmft@xgrid.co"
     AccountName               = "TestAccount"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "Test"
     SSOUserEmail              = "awsaudit+testaccountmft@xgrid.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
