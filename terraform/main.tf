@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "awsaudit+testaccountmft@xgrid.co"
+    AccountEmail              = "awsaudit+testaccountformft@xgrid.co"
     AccountName               = "TestAccount1"
     ManagedOrganizationalUnit = "Test"
-    SSOUserEmail              = "awsaudit+testaccountmft@xgrid.com"
+    SSOUserEmail              = "awsaudit+testaccounfortmft@xgrid.co"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
